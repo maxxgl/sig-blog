@@ -1,2 +1,30 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	export let data;
+</script>
+
+<h1>Sig's Blog</h1>
+
+<main>
+	{#each data.posts as post}
+		<a href={post.path}>
+			<div class="post">
+				<div>{post.meta.title}</div>
+				<div>{post.meta.date}</div>
+			</div>
+		</a>
+		<div />
+	{/each}
+</main>
+
+<style>
+	.post {
+		background-color: aliceblue;
+		padding: 1em;
+		border-radius: 1em;
+	}
+
+	a {
+		text-decoration: none !important;
+		color: black;
+	}
+</style>
