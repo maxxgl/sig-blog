@@ -10,11 +10,11 @@ export async function load() {
 					date: string;
 				};
 			};
-			const postPath = path.slice(11, -3);
+			const slug = path.split('/').pop()?.split('.')[0];
 
 			return {
 				meta: post.metadata,
-				path: postPath
+				path: `/blog/${slug}`
 			};
 		})
 	);
