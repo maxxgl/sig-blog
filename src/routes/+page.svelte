@@ -21,6 +21,7 @@
 		background-color: aliceblue;
 		padding: 1em;
 		border-radius: 1em;
+		margin-bottom: 1em;
 	}
 
 	a {

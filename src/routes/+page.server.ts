@@ -8,6 +8,7 @@ export async function load() {
 				metadata: {
 					title: string;
 					date: string;
+					draft?: boolean;
 				};
 			};
 			const slug = path.split('/').pop()?.split('.')[0];
@@ -19,7 +20,9 @@ export async function load() {
 		})
 	);
 
-	const sortedPosts = allPosts.sort((a, b) => {
+	const filteredPosts = allPosts.filter((post) => !post.meta.draft);
+
+	const sortedPosts = filteredPosts.sort((a, b) => {
 		return +new Date(b.meta.date) - +new Date(a.meta.date);
 	});
 
