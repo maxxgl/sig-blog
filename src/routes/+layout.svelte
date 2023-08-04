@@ -1,5 +1,5 @@
 <header>
-	<a href="/">Home</a>
+	<a href="/" class="home-link">Selah Ministries</a>
 	<a href="/blog">Blog</a>
 	<a href="/">About</a>
 	<a href="/">Contact</a>
@@ -20,14 +20,18 @@
 		color: white;
 	}
 
-	.xx-main {
-		width: min(80ch, 80%);
+	.home-link {
+		font-family: 'Playfair Display', serif;
+	}
+
+	main {
+		width: min(100ch, 100%);
 		margin: 0 auto;
 		padding: 1em 0;
 	}
 
 	footer {
-		text-align: center;
+		justify-content: center;
 		margin-top: 2em;
 	}
 

@@ -1,45 +1,40 @@
 <script lang="ts">
+	import Post from '$lib/post.svelte';
+
 	export let data;
 </script>
 
-<h1>Selah Ministries</h1>
-<h2>Faith Journey</h2>
+<div class="margined">
+	<h1>Selah Ministries</h1>
+	<h2>Faith Journey</h2>
+</div>
 
 <img src="hero.jpg" alt="Hero of Jesus walking on water" />
 
-{#each data.posts as post}
-	<a href={post.path}>
-		<div class="post">
-			<div>{post.meta.title}</div>
-			<div>{post.meta.date}</div>
-		</div>
-	</a>
-	<div />
-{/each}
+<div class="margined">
+	<h2>Selah Ministries Blog</h2>
 
-<br />
+	{#each data.posts as post}
+		<Post {post} />
+	{/each}
+</div>
 
 <style>
 	h1 {
 		margin-bottom: 0;
 		font-size: 1.75em;
+		font-weight: bold;
 	}
-	h2 {
+	h1 + h2 {
 		margin-top: 0;
 	}
 	img {
 		width: 100%;
 	}
 
-	.post {
-		background-color: aliceblue;
-		padding: 1em;
-		border-radius: 1em;
-		margin-bottom: 1em;
-	}
-
-	a {
-		text-decoration: none !important;
-		color: black;
+	.margined {
+		width: min(80ch, 80%);
+		margin: 0 auto;
+		padding: 1em 0;
 	}
 </style>

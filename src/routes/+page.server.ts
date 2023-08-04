@@ -8,6 +8,8 @@ export async function load() {
 				metadata: {
 					title: string;
 					date: string;
+					summary: string;
+					hero: string;
 					draft?: boolean;
 				};
 			};

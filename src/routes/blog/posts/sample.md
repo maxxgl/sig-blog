@@ -1,6 +1,8 @@
 ---
   title: Sample
   date: 2023-07-16
+  hero: https://res.cloudinary.com/dutch-pictures/image/upload/v1680471514/hlikmchdh1y8adljddb7.jpg
+  summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   draft: true
 ---
 
