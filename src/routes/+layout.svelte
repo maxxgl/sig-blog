@@ -1,33 +1,44 @@
 <header>
-	<a href="/">Sig's Blog</a>
+	<a href="/">Home</a>
+	<a href="/blog">Blog</a>
+	<a href="/">About</a>
+	<a href="/">Contact</a>
 </header>
 
 <main>
 	<slot />
 </main>
 
-<footer>©️ {new Date().getFullYear()}</footer>
+<footer>©️ {new Date().getFullYear()} Selah Ministries</footer>
 
 <style>
 	header,
 	footer {
+		display: flex;
 		padding: 1em;
+		background-color: var(--primary-color);
+		color: white;
 	}
 
-	header {
-		background-color: rosybrown;
-	}
-
-	main {
+	.xx-main {
 		width: min(80ch, 80%);
 		margin: 0 auto;
 		padding: 1em 0;
 	}
 
 	footer {
-		background-color: seashell;
 		text-align: center;
 		margin-top: 2em;
+	}
+
+	header > a {
+		color: white;
+		text-decoration: none;
+		margin-right: 1em;
+	}
+
+	header > a:first-of-type {
+		margin-right: auto;
 	}
 
 	:global(body) {
@@ -57,6 +68,7 @@
 	:global(h1),
 	:global(h2),
 	:global(h3) {
-		font-weight: 100;
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
 	}
 </style>
