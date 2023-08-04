@@ -2,22 +2,28 @@
 	export let data;
 </script>
 
-<div>
-	<h1>{data.title}</h1>
-	<data value={data.date}>{data.date}</data>
+<div class="content">
+	<img src={data.hero} alt="hero" />
+	<div>
+		<h1>{data.title}</h1>
+		<small>{new Date(data.date).toLocaleDateString()}</small>
+	</div>
+
+	<svelte:component this={data.content} />
 </div>
 
-<br />
-
-<svelte:component this={data.content} />
-
 <style>
-	h1 {
-		margin-top: 0;
+	.content {
+		padding: 0 2em;
 	}
-	div {
-		background-color: lightgray;
-		padding: 1em;
-		border-radius: 1em;
+
+	img {
+		width: 100%;
+	}
+
+	small {
+		display: block;
+		margin-top: -1em;
+		color: #555;
 	}
 </style>

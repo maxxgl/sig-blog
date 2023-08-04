@@ -14,7 +14,6 @@ export async function load({ params }) {
 
 	return {
 		content,
-		title: post.metadata.title,
-		date: post.metadata.date
+		...post.metadata
 	};
 }
