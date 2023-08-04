@@ -4,9 +4,54 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+
+	<script>
+		class Color {
+			constructor(saturation, lightness, hue) {
+				this.h = hue || Math.random() * 360;
+				this.s = saturation;
+				this.l = lightness;
+			}
+
+			stringify = (h, s, l) => `hsl(${h},${s}%,${l}%)`;
+			color = () => this.stringify(this.h, this.s, this.l);
+			lighten = () => this.stringify(this.h, this.s + 5, this.l + 20);
+		}
+		const background = new Color(0, 100, 0);
+		const accent = new Color(80, 70);
+
+		let styles = {
+			'primary-color': new Color(52.65, 48.04, 14.42).color(),
+			'secondary-color': new Color(70, 96.08, 12.86).color(),
+			'accent-color': accent.color(),
+			'off-accent-color': accent.lighten(),
+			'background-color': background.color(),
+			'off-background-color': background.color(),
+			'text-color': '#333'
+		};
+
+		const e = document.getElementsByTagName('body');
+
+		const cssVarStyles = Object.entries(styles)
+			.map(([key, value]) => `--${key}:${value}`)
+			.join(';');
+
+		const s = `
+			${cssVarStyles};
+			background-color: var(--background-color);
+		`;
+
+		e[0].style.cssText = s;
+	</script>
 </html>
