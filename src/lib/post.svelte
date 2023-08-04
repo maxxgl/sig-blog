@@ -16,6 +16,7 @@
 <style>
 	.post {
 		border: 1px solid #ddd;
+		margin-bottom: 3em;
 	}
 
 	h3 {

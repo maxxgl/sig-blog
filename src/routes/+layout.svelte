@@ -1,7 +1,7 @@
 <header>
 	<a href="/" class="home-link">Selah Ministries</a>
 	<a href="/blog">Blog</a>
-	<a href="/">About</a>
+	<a href="/about">About</a>
 	<a href="/">Contact</a>
 </header>
 
