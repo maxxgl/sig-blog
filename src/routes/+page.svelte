@@ -2,21 +2,35 @@
 	export let data;
 </script>
 
-<h1>Sig's Blog</h1>
+<h1>Selah Ministries</h1>
+<h2>Faith Journey</h2>
 
-<main>
-	{#each data.posts as post}
-		<a href={post.path}>
-			<div class="post">
-				<div>{post.meta.title}</div>
-				<div>{post.meta.date}</div>
-			</div>
-		</a>
-		<div />
-	{/each}
-</main>
+<img src="hero.jpg" alt="Hero of Jesus walking on water" />
+
+{#each data.posts as post}
+	<a href={post.path}>
+		<div class="post">
+			<div>{post.meta.title}</div>
+			<div>{post.meta.date}</div>
+		</div>
+	</a>
+	<div />
+{/each}
+
+<br />
 
 <style>
+	h1 {
+		margin-bottom: 0;
+		font-size: 1.75em;
+	}
+	h2 {
+		margin-top: 0;
+	}
+	img {
+		width: 100%;
+	}
+
 	.post {
 		background-color: aliceblue;
 		padding: 1em;
