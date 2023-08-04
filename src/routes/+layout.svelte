@@ -20,6 +20,11 @@
 		color: white;
 	}
 
+	header {
+		position: sticky;
+		top: 0;
+	}
+
 	.home-link {
 		font-family: 'Playfair Display', serif;
 	}
@@ -47,7 +52,7 @@
 
 	:global(body) {
 		margin: 0;
-		height: 100vh;
+		min-height: 100vh;
 		display: grid;
 		grid-template-rows: min-content 1fr min-content;
 	}
