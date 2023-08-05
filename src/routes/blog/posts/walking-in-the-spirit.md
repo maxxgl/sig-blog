@@ -2,13 +2,8 @@
 title: Walking in the Spirit - Galatians 5
 date: 2023-08-05
 summary: So I say, walk by the spirit and you will not gratify the desires of the flesh. - Galatians 5:16
-hero: https://github.com/maxxgl/sig-blog/assets/20944914/4810d65f-535d-4811-a414-8ac99c99e949
+hero: https://github.com/maxxgl/sig-blog/assets/20944914/4c594663-5750-4766-8aa4-dda60761d3db
 ---
-
-![image](https://github.com/maxxgl/sig-blog/assets/20944914/4810d65f-535d-4811-a414-8ac99c99e949)
-
-![image](https://github.com/maxxgl/sig-blog/assets/20944914/4c594663-5750-4766-8aa4-dda60761d3db)
-
 
 ## Galatians 5: 1-15
 
