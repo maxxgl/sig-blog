@@ -34,11 +34,11 @@
 	:global(.blog-post-content .icon-link::before) {
 		content: '#';
 		position: absolute;
-		font-size: 1.1em;
+		font-size: 1.5em;
 		left: -1.4ch;
-		line-height: 1;
+		line-height: 0.9;
 		opacity: 0;
-		text-decoration: underline;
+		color: var(--primary-color);
 	}
 
 	:global(.blog-post-content h2:hover .icon-link::before),

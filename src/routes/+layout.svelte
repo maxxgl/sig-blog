@@ -50,6 +50,9 @@
 		margin-right: auto;
 	}
 
+	:global(html) {
+		scroll-padding-top: 4.5em;
+	}
 	:global(body) {
 		margin: 0;
 		min-height: 100vh;
