@@ -11,9 +11,9 @@
 
 <img src="hero.jpg" alt="Hero of Jesus walking on water" />
 
-<div class="margined">
-	<h2>Selah Ministries Blog</h2>
+<h2 class="margined">Selah Ministries Blog</h2>
 
+<div class="posts">
 	{#each data.posts as post}
 		<Post {post} />
 	{/each}
@@ -33,9 +33,19 @@
 		margin-bottom: 3em;
 	}
 
-	.margined {
+	.margined,
+	.posts {
 		width: min(80ch, 80%);
 		margin: 0 auto;
 		padding: 1em 0;
+	}
+
+	@media (min-width: 121ch) {
+		.posts {
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 2em;
+		}
 	}
 </style>

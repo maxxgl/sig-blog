@@ -44,4 +44,12 @@
 	a:hover {
 		color: var(--primary-color);
 	}
+
+	@media (min-width: 121ch) {
+		img {
+			height: 20em;
+			object-fit: cover;
+			object-position: top;
+		}
+	}
 </style>
