@@ -5,6 +5,8 @@ summary: So I say, walk by the spirit and you will not gratify the desires of th
 hero: https://github-production-user-asset-6210df.s3.amazonaws.com/141515117/258600732-612b8dbd-5505-405b-9144-bace5c228c92.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230805T180104Z&X-Amz-Expires=300&X-Amz-Signature=5e91c3694d266c14198b6257d9b36baa6aa6dcdca1023b70be60c5319e82c246&X-Amz-SignedHeaders=host&actor_id=141515117&key_id=0&repo_id=666554868
 ---
 
+![img](https://github.com/maxxgl/sig-blog/assets/141515117/612b8dbd-5505-405b-9144-bace5c228c92)
+
 ## Galatians 5: 1-15
 
 ![6753AAB1-1345-4DC4-A60D-4A3A4956B615_1_105_c](https://github-production-user-asset-6210df.s3.amazonaws.com/141515117/258601038-0fcc91fa-8b59-4c95-818f-78fb82ad6dca.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230805T180536Z&X-Amz-Expires=300&X-Amz-Signature=253c5d44c9fe23dfcc4d0b81cc0126d6aa571edf1bc5877b5bd0c7da7d99e223&X-Amz-SignedHeaders=host&actor_id=141515117&key_id=0&repo_id=666554868)
