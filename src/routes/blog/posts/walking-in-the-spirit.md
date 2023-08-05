@@ -7,6 +7,9 @@ hero: https://github.com/maxxgl/sig-blog/assets/20944914/4810d65f-535d-4811-a414
 
 ![image](https://github.com/maxxgl/sig-blog/assets/20944914/4810d65f-535d-4811-a414-8ac99c99e949)
 
+![image](https://github.com/maxxgl/sig-blog/assets/20944914/4c594663-5750-4766-8aa4-dda60761d3db)
+
+
 ## Galatians 5: 1-15
 
 At the beginning of the chapter, we are reminded by Paul that we are free. Christ came to free us from the law. So therefore we shall not walk in that yoke of slavery anymore. This is such an encouragement to remember as we are looking at all the religions in the world and what people follow after. The difference between religion and a relationship with the Lord is so important to understand as you grow in Christ. We are not under the law anymore. We do not make sacrifices or have to do any certain performance for the Lord. We are free from the law. Saved by grace through faith. Run away from the churches that try to tell you you HAVE to take and eat of this bread to be saved, you HAVE to confess to the priest, you HAVE to be baptized as a baby. These are not sounding like very free things to me. It is about the heart, not the work. When your love is for Christ that is where you will find true freedom. We are reminded also by Paul that Christ would be of no value to us if we lived by the Law. He came to fulfill the law. We get to walk in Jesus’s grace. Again it is faith working through love. (Galatians 5:6) Now that we are called to freedom we are not to live in the flesh but walk in step with the spirit.
