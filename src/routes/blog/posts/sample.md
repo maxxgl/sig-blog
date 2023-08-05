@@ -2,7 +2,8 @@
   title: Sample
   date: 2023-07-16
   hero: https://res.cloudinary.com/dutch-pictures/image/upload/v1512326355/dutch/m5dm5i80jdyerpozslzc.jpg
-  summary: test ipsum dolor sit amet, consectetur adipiscing elit.
+  summary: >
+    test ipsum dolor sit amet, consectetur adipiscing elit.
   # draft: true
 ---
 
