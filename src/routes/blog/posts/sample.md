@@ -4,7 +4,7 @@
   hero: https://res.cloudinary.com/dutch-pictures/image/upload/v1512326355/dutch/m5dm5i80jdyerpozslzc.jpg
   summary: >
     test ipsum dolor sit amet, consectetur adipiscing elit.
-  # draft: true
+  draft: true
 ---
 
 ## GitHub Flavored Markdown
