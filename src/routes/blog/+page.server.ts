@@ -22,7 +22,7 @@ export async function load() {
 		})
 	);
 
-	const filteredPosts = allPosts; //.filter((post) => !post.meta.draft);
+	const filteredPosts = allPosts.filter((post) => !post.meta.draft);
 
 	const sortedPosts = filteredPosts.sort((a, b) => {
 		return +new Date(b.meta.date) - +new Date(a.meta.date);
