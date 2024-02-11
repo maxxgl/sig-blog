@@ -3,7 +3,7 @@ title: Testing of Faith - James 1 (V2-12)
 date: 2024-10-02
 summary: >
   "Consider it all joy, my brethren, when you encounter various trials knowing that the testing of your faith produces endurance and let endurance have its perfect result, so that you may be perfect and completely lacking in nothing.” James 1:2-3
-hero: https://github.com/maxxgl/sig-blog/blob/master/static/Powerful%20quotes%20%F0%9F%A4%8D.jpeg?raw=true
+hero: https://github.com/maxxgl/sig-blog/blob/master/static/_%20(1).jpeg?raw=true
 ---
 
 ## The perseverance of suffering 
